@@ -1,4 +1,4 @@
-# Discrete design for the input buffer - eval board
+# Discrete design for the input buffer with low THD
 
 Impedance matching buffer. Made in KiCAD 5.
 
