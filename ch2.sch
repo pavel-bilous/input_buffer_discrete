@@ -13,4 +13,1219 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector:XLR3_Ground J?
+U 1 1 6480C4F3
+P 1000 4500
+AR Path="/646D7D07/6480C4F3" Ref="J?"  Part="1" 
+AR Path="/646D7D6E/6480C4F3" Ref="J2"  Part="1" 
+F 0 "J2" V 1046 4728 50  0000 L CNN
+F 1 "CH2" V 955 4728 50  0000 L CNN
+F 2 "" H 1000 4500 50  0001 C CNN
+F 3 " ~" H 1000 4500 50  0001 C CNN
+	1    1000 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C4F9
+P 1500 3500
+AR Path="/646D7D07/6480C4F9" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C4F9" Ref="R28"  Part="1" 
+F 0 "R28" V 1304 3500 50  0000 C CNN
+F 1 "100R" V 1395 3500 50  0000 C CNN
+F 2 "" H 1500 3500 50  0001 C CNN
+F 3 "~" H 1500 3500 50  0001 C CNN
+	1    1500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C4FF
+P 1500 4500
+AR Path="/646D7D07/6480C4FF" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C4FF" Ref="R29"  Part="1" 
+F 0 "R29" V 1304 4500 50  0000 C CNN
+F 1 "100R" V 1395 4500 50  0000 C CNN
+F 2 "" H 1500 4500 50  0001 C CNN
+F 3 "~" H 1500 4500 50  0001 C CNN
+	1    1500 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C505
+P 2150 4000
+AR Path="/646D7D07/6480C505" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C505" Ref="R30"  Part="1" 
+F 0 "R30" V 1954 4000 50  0000 C CNN
+F 1 "2M2" V 2045 4000 50  0000 C CNN
+F 2 "" H 2150 4000 50  0001 C CNN
+F 3 "~" H 2150 4000 50  0001 C CNN
+	1    2150 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C50B
+P 2350 3750
+AR Path="/646D7D07/6480C50B" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C50B" Ref="R31"  Part="1" 
+F 0 "R31" H 2291 3704 50  0000 R CNN
+F 1 "47K" H 2291 3795 50  0000 R CNN
+F 2 "" H 2350 3750 50  0001 C CNN
+F 3 "~" H 2350 3750 50  0001 C CNN
+	1    2350 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C511
+P 2350 4250
+AR Path="/646D7D07/6480C511" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C511" Ref="R32"  Part="1" 
+F 0 "R32" H 2291 4204 50  0000 R CNN
+F 1 "47K" H 2291 4295 50  0000 R CNN
+F 2 "" H 2350 4250 50  0001 C CNN
+F 3 "~" H 2350 4250 50  0001 C CNN
+	1    2350 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6480C517
+P 1700 3750
+AR Path="/646D7D07/6480C517" Ref="C?"  Part="1" 
+AR Path="/646D7D6E/6480C517" Ref="C7"  Part="1" 
+F 0 "C7" H 1792 3796 50  0000 L CNN
+F 1 "100p" H 1792 3705 50  0000 L CNN
+F 2 "" H 1700 3750 50  0001 C CNN
+F 3 "~" H 1700 3750 50  0001 C CNN
+	1    1700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6480C51D
+P 1700 4250
+AR Path="/646D7D07/6480C51D" Ref="C?"  Part="1" 
+AR Path="/646D7D6E/6480C51D" Ref="C8"  Part="1" 
+F 0 "C8" H 1792 4296 50  0000 L CNN
+F 1 "100p" H 1792 4205 50  0000 L CNN
+F 2 "" H 1700 4250 50  0001 C CNN
+F 3 "~" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS844-SOT-23-6L-CT:LS844-SOT-23-6L-CT Q?
+U 1 1 6480C529
+P 3350 2250
+AR Path="/646D7D07/6480C529" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C529" Ref="Q202"  Part="1" 
+F 0 "Q202" H 3800 2515 50  0000 C CNN
+F 1 "LS844" H 3800 2424 50  0000 C CNN
+F 2 "SOT95P280X145-6N" H 4100 2350 50  0001 L CNN
+F 3 "https://www.linearsystems.com/lsdata/datasheets/LS844SeriesDSRevA14" H 4100 2250 50  0001 L CNN
+F 4 "JFET Low Noise, Low Drift, Low Capacitance, Monolithic Dual, N-Channel JFET" H 4100 2150 50  0001 L CNN "Description"
+F 5 "1.45" H 4100 2050 50  0001 L CNN "Height"
+F 6 "722-LS844SOT236LCT" H 4100 1950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Linear-Integrated-Systems/LS844-SOT-23-6L-CT?qs=T%252BzbugeAwjiyHRIf%2Fcfibw%3D%3D" H 4100 1850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Linear Integrated Systems" H 4100 1750 50  0001 L CNN "Manufacturer_Name"
+F 9 "LS844-SOT-23-6L-CT" H 4100 1650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C52F
+P 3600 1800
+AR Path="/646D7D07/6480C52F" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C52F" Ref="R39"  Part="1" 
+F 0 "R39" V 3404 1800 50  0000 C CNN
+F 1 "470R" V 3495 1800 50  0000 C CNN
+F 2 "" H 3600 1800 50  0001 C CNN
+F 3 "~" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6480C535
+P 3850 1800
+AR Path="/646D7D07/6480C535" Ref="C?"  Part="1" 
+AR Path="/646D7D6E/6480C535" Ref="C9"  Part="1" 
+F 0 "C9" V 3621 1800 50  0000 C CNN
+F 1 "680p" V 3712 1800 50  0000 C CNN
+F 2 "" H 3850 1800 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C53B
+P 3300 1150
+AR Path="/646D7D07/6480C53B" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C53B" Ref="R33"  Part="1" 
+F 0 "R33" H 3241 1104 50  0000 R CNN
+F 1 "100R" H 3241 1195 50  0000 R CNN
+F 2 "" H 3300 1150 50  0001 C CNN
+F 3 "~" H 3300 1150 50  0001 C CNN
+	1    3300 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C541
+P 4300 1150
+AR Path="/646D7D07/6480C541" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C541" Ref="R43"  Part="1" 
+F 0 "R43" H 4241 1104 50  0000 R CNN
+F 1 "100R" H 4241 1195 50  0000 R CNN
+F 2 "" H 4300 1150 50  0001 C CNN
+F 3 "~" H 4300 1150 50  0001 C CNN
+	1    4300 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C547
+P 3300 2650
+AR Path="/646D7D07/6480C547" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C547" Ref="R34"  Part="1" 
+F 0 "R34" H 3241 2604 50  0000 R CNN
+F 1 "100R" H 3241 2695 50  0000 R CNN
+F 2 "" H 3300 2650 50  0001 C CNN
+F 3 "~" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C54D
+P 4300 2650
+AR Path="/646D7D07/6480C54D" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C54D" Ref="R44"  Part="1" 
+F 0 "R44" H 4241 2604 50  0000 R CNN
+F 1 "100R" H 4241 2695 50  0000 R CNN
+F 2 "" H 4300 2650 50  0001 C CNN
+F 3 "~" H 4300 2650 50  0001 C CNN
+	1    4300 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C553
+P 3500 3050
+AR Path="/646D7D07/6480C553" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C553" Ref="R37"  Part="1" 
+F 0 "R37" V 3304 3050 50  0000 C CNN
+F 1 "5K6" V 3395 3050 50  0000 C CNN
+F 2 "" H 3500 3050 50  0001 C CNN
+F 3 "~" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C559
+P 4000 3550
+AR Path="/646D7D07/6480C559" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C559" Ref="R41"  Part="1" 
+F 0 "R41" H 3941 3504 50  0000 R CNN
+F 1 "330R" H 3941 3595 50  0000 R CNN
+F 2 "" H 4000 3550 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 1500 4000 1500
+Wire Wire Line
+	4000 1500 4000 1800
+Wire Wire Line
+	4000 1800 4300 1800
+Wire Wire Line
+	4300 1800 4300 1700
+Connection ~ 4000 1500
+Wire Wire Line
+	3950 1800 4000 1800
+Connection ~ 4000 1800
+Wire Wire Line
+	3300 1800 3300 1700
+Wire Wire Line
+	3300 1300 3300 1250
+Wire Wire Line
+	4300 1300 4300 1250
+Wire Wire Line
+	3300 1050 3300 1000
+Wire Wire Line
+	3300 1000 4300 1000
+Wire Wire Line
+	4300 1000 4300 1050
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 6480C56C
+P 4950 1900
+AR Path="/646D7D07/6480C56C" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C56C" Ref="Q204"  Part="1" 
+F 0 "Q204" H 5141 1854 50  0000 L CNN
+F 1 "BC856" H 5141 1945 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 1825 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 4950 1900 50  0001 L CNN
+	1    4950 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC846 Q?
+U 1 1 6480C572
+P 5300 3200
+AR Path="/646D7D07/6480C572" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C572" Ref="Q206"  Part="1" 
+F 0 "Q206" H 5491 3246 50  0000 L CNN
+F 1 "BC846" H 5491 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 3125 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 5300 3200 50  0001 L CNN
+	1    5300 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1800 3300 1800
+Wire Wire Line
+	3700 1800 3750 1800
+Text Label 2850 2250 0    50   ~ 0
+CH2IN+
+Wire Wire Line
+	3350 2450 3300 2450
+Wire Wire Line
+	3300 2450 3300 2550
+Wire Wire Line
+	4250 2250 4300 2250
+Wire Wire Line
+	4300 2250 4300 2550
+Wire Wire Line
+	3300 1800 3300 1900
+Wire Wire Line
+	3300 2350 3350 2350
+Connection ~ 3300 1800
+Wire Wire Line
+	4250 2350 4400 2350
+Wire Wire Line
+	4400 2350 4400 2150
+Wire Wire Line
+	4400 2150 4300 2150
+Wire Wire Line
+	4300 2150 4300 1800
+Connection ~ 4300 1800
+Wire Wire Line
+	4750 1900 4600 1900
+Connection ~ 3300 1900
+Wire Wire Line
+	3300 1900 3300 2350
+Wire Wire Line
+	3300 2750 3300 2800
+Wire Wire Line
+	3300 2800 4000 2800
+Wire Wire Line
+	4300 2800 4300 2750
+Wire Wire Line
+	4000 2850 4000 2800
+Connection ~ 4000 2800
+Wire Wire Line
+	4000 2800 4300 2800
+Wire Wire Line
+	3700 3050 3600 3050
+Wire Wire Line
+	3700 3150 3700 3050
+Connection ~ 3700 3050
+Wire Wire Line
+	4000 3250 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	4000 3350 4000 3450
+Wire Wire Line
+	4000 3650 4000 3700
+Wire Wire Line
+	4000 3700 3700 3700
+Wire Wire Line
+	3700 3700 3700 3550
+$Comp
+L power:GND #PWR?
+U 1 1 6480C599
+P 3300 3050
+AR Path="/646D7D07/6480C599" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C599" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 3300 2800 50  0001 C CNN
+F 1 "GND" H 3305 2877 50  0000 C CNN
+F 2 "" H 3300 3050 50  0001 C CNN
+F 3 "" H 3300 3050 50  0001 C CNN
+	1    3300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3050 3400 3050
+$Comp
+L Transistor_BJT:BC846BDW1 Q?
+U 1 1 6480C5A0
+P 3900 3050
+AR Path="/646D7D07/6480C5A0" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C5A0" Ref="Q203"  Part="1" 
+F 0 "Q203" H 4090 3096 50  0000 L CNN
+F 1 "BC846BDW1" H 4090 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4100 3150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC846BDW1 Q?
+U 2 1 6480C5A6
+P 3800 3350
+AR Path="/646D7D07/6480C5A6" Ref="Q?"  Part="2" 
+AR Path="/646D7D6E/6480C5A6" Ref="Q203"  Part="2" 
+F 0 "Q203" H 3991 3396 50  0000 L CNN
+F 1 "BC846BDW1" H 3991 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4000 3450 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 3800 3350 50  0001 C CNN
+	2    3800 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856BDW1 Q?
+U 2 1 6480C5AC
+P 4200 1500
+AR Path="/646D7D07/6480C5AC" Ref="Q?"  Part="2" 
+AR Path="/646D7D6E/6480C5AC" Ref="Q201"  Part="2" 
+F 0 "Q201" H 4390 1546 50  0000 L CNN
+F 1 "BC856BDW1" H 4390 1455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4400 1600 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 4200 1500 50  0001 C CNN
+	2    4200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856BDW1 Q?
+U 1 1 6480C5B2
+P 3400 1500
+AR Path="/646D7D07/6480C5B2" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C5B2" Ref="Q201"  Part="1" 
+F 0 "Q201" H 3591 1546 50  0000 L CNN
+F 1 "BC856BDW1" H 3591 1455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3600 1600 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 3400 1500 50  0001 C CNN
+	1    3400 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6480C5B8
+P 5050 2100
+AR Path="/646D7D07/6480C5B8" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C5B8" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5050 1850 50  0001 C CNN
+F 1 "GND" H 5055 1927 50  0000 C CNN
+F 2 "" H 5050 2100 50  0001 C CNN
+F 3 "" H 5050 2100 50  0001 C CNN
+	1    5050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1000 5050 1000
+Wire Wire Line
+	5050 1000 5050 1150
+Connection ~ 4300 1000
+$Comp
+L Device:R_Small R?
+U 1 1 6480C5C1
+P 5050 1250
+AR Path="/646D7D07/6480C5C1" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C5C1" Ref="R49"  Part="1" 
+F 0 "R49" H 4991 1204 50  0000 R CNN
+F 1 "470R" H 4991 1295 50  0000 R CNN
+F 2 "" H 5050 1250 50  0001 C CNN
+F 3 "~" H 5050 1250 50  0001 C CNN
+	1    5050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 1350 5050 1550
+$Comp
+L Transistor_BJT:BCP53 Q?
+U 1 1 6480C5C8
+P 5400 1550
+AR Path="/646D7D07/6480C5C8" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C5C8" Ref="Q205"  Part="1" 
+F 0 "Q205" H 5591 1504 50  0000 L CNN
+F 1 "BCP53" H 5591 1595 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5600 1475 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF" H 5400 1550 50  0001 L CNN
+	1    5400 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BCP56 Q?
+U 1 1 6480C5CE
+P 5400 2900
+AR Path="/646D7D07/6480C5CE" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C5CE" Ref="Q207"  Part="1" 
+F 0 "Q207" H 5591 2946 50  0000 L CNN
+F 1 "BCP56" H 5591 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5600 2825 50  0001 L CIN
+F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H 5400 2900 50  0001 L CNN
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1000 5500 1000
+Wire Wire Line
+	5500 1000 5500 1350
+Connection ~ 5050 1000
+Wire Wire Line
+	5200 1550 5050 1550
+Connection ~ 5050 1550
+Wire Wire Line
+	5050 1550 5050 1700
+Wire Wire Line
+	4250 2450 4600 2450
+Wire Wire Line
+	5500 2450 5500 1750
+$Comp
+L Device:C_Small C?
+U 1 1 6480C5DC
+P 4600 2200
+AR Path="/646D7D07/6480C5DC" Ref="C?"  Part="1" 
+AR Path="/646D7D6E/6480C5DC" Ref="C11"  Part="1" 
+F 0 "C11" H 4508 2154 50  0000 R CNN
+F 1 "47p" H 4508 2245 50  0000 R CNN
+F 2 "" H 4600 2200 50  0001 C CNN
+F 3 "~" H 4600 2200 50  0001 C CNN
+	1    4600 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2100 4600 1900
+Connection ~ 4600 1900
+Wire Wire Line
+	4600 1900 3300 1900
+Wire Wire Line
+	4600 2300 4600 2450
+Connection ~ 4600 2450
+Wire Wire Line
+	4600 2450 5500 2450
+$Comp
+L Device:R_Small R?
+U 1 1 6480C5E8
+P 5000 2900
+AR Path="/646D7D07/6480C5E8" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C5E8" Ref="R47"  Part="1" 
+F 0 "R47" V 4804 2900 50  0000 C CNN
+F 1 "5K6" V 4895 2900 50  0000 C CNN
+F 2 "" H 5000 2900 50  0001 C CNN
+F 3 "~" H 5000 2900 50  0001 C CNN
+	1    5000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6480C5EE
+P 4800 2900
+AR Path="/646D7D07/6480C5EE" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C5EE" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 4800 2650 50  0001 C CNN
+F 1 "GND" H 4805 2727 50  0000 C CNN
+F 2 "" H 4800 2900 50  0001 C CNN
+F 3 "" H 4800 2900 50  0001 C CNN
+	1    4800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C5F4
+P 5500 3450
+AR Path="/646D7D07/6480C5F4" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C5F4" Ref="R51"  Part="1" 
+F 0 "R51" H 5441 3404 50  0000 R CNN
+F 1 "22R" H 5441 3495 50  0000 R CNN
+F 2 "" H 5500 3450 50  0001 C CNN
+F 3 "~" H 5500 3450 50  0001 C CNN
+	1    5500 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2900 4900 2900
+Wire Wire Line
+	5100 2900 5200 2900
+Wire Wire Line
+	5200 2900 5200 3000
+Connection ~ 5200 2900
+Wire Wire Line
+	5500 3100 5500 3200
+Connection ~ 5500 3200
+Wire Wire Line
+	5500 3200 5500 3350
+Wire Wire Line
+	5200 3400 5200 3700
+Wire Wire Line
+	5200 3700 4000 3700
+Connection ~ 4000 3700
+Wire Wire Line
+	5500 3550 5500 3700
+Wire Wire Line
+	5500 3700 5200 3700
+Connection ~ 5200 3700
+Wire Wire Line
+	5500 2700 5500 2450
+Connection ~ 5500 2450
+$Comp
+L power:+15V #PWR?
+U 1 1 6480C609
+P 5650 1000
+AR Path="/646D7D07/6480C609" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C609" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 5650 850 50  0001 C CNN
+F 1 "+15V" V 5650 1100 50  0000 L CNN
+F 2 "" H 5650 1000 50  0001 C CNN
+F 3 "" H 5650 1000 50  0001 C CNN
+	1    5650 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 1000 5500 1000
+Connection ~ 5500 1000
+$Comp
+L power:-15V #PWR?
+U 1 1 6480C611
+P 5600 3700
+AR Path="/646D7D07/6480C611" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C611" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 5600 3800 50  0001 C CNN
+F 1 "-15V" V 5615 3828 50  0000 L CNN
+F 2 "" H 5600 3700 50  0001 C CNN
+F 3 "" H 5600 3700 50  0001 C CNN
+	1    5600 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3700 5500 3700
+Connection ~ 5500 3700
+Text GLabel 5950 2450 2    50   Input ~ 0
+CH2OUT+
+$Comp
+L Device:R_Small R?
+U 1 1 6480C61A
+P 5750 2450
+AR Path="/646D7D07/6480C61A" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C61A" Ref="R53"  Part="1" 
+F 0 "R53" V 5554 2450 50  0000 C CNN
+F 1 "100R" V 5645 2450 50  0000 C CNN
+F 2 "" H 5750 2450 50  0001 C CNN
+F 3 "~" H 5750 2450 50  0001 C CNN
+	1    5750 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L LS844-SOT-23-6L-CT:LS844-SOT-23-6L-CT Q?
+U 1 1 6480C626
+P 3350 5750
+AR Path="/646D7D07/6480C626" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C626" Ref="Q212"  Part="1" 
+F 0 "Q212" H 3800 6015 50  0000 C CNN
+F 1 "LS844" H 3800 5924 50  0000 C CNN
+F 2 "SOT95P280X145-6N" H 4100 5850 50  0001 L CNN
+F 3 "https://www.linearsystems.com/lsdata/datasheets/LS844SeriesDSRevA14" H 4100 5750 50  0001 L CNN
+F 4 "JFET Low Noise, Low Drift, Low Capacitance, Monolithic Dual, N-Channel JFET" H 4100 5650 50  0001 L CNN "Description"
+F 5 "1.45" H 4100 5550 50  0001 L CNN "Height"
+F 6 "722-LS844SOT236LCT" H 4100 5450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Linear-Integrated-Systems/LS844-SOT-23-6L-CT?qs=T%252BzbugeAwjiyHRIf%2Fcfibw%3D%3D" H 4100 5350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Linear Integrated Systems" H 4100 5250 50  0001 L CNN "Manufacturer_Name"
+F 9 "LS844-SOT-23-6L-CT" H 4100 5150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C62C
+P 3600 5300
+AR Path="/646D7D07/6480C62C" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C62C" Ref="R40"  Part="1" 
+F 0 "R40" V 3404 5300 50  0000 C CNN
+F 1 "470R" V 3495 5300 50  0000 C CNN
+F 2 "" H 3600 5300 50  0001 C CNN
+F 3 "~" H 3600 5300 50  0001 C CNN
+	1    3600 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6480C632
+P 3850 5300
+AR Path="/646D7D07/6480C632" Ref="C?"  Part="1" 
+AR Path="/646D7D6E/6480C632" Ref="C10"  Part="1" 
+F 0 "C10" V 3621 5300 50  0000 C CNN
+F 1 "680p" V 3712 5300 50  0000 C CNN
+F 2 "" H 3850 5300 50  0001 C CNN
+F 3 "~" H 3850 5300 50  0001 C CNN
+	1    3850 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C638
+P 3300 4650
+AR Path="/646D7D07/6480C638" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C638" Ref="R35"  Part="1" 
+F 0 "R35" H 3241 4604 50  0000 R CNN
+F 1 "100R" H 3241 4695 50  0000 R CNN
+F 2 "" H 3300 4650 50  0001 C CNN
+F 3 "~" H 3300 4650 50  0001 C CNN
+	1    3300 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C63E
+P 4300 4650
+AR Path="/646D7D07/6480C63E" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C63E" Ref="R45"  Part="1" 
+F 0 "R45" H 4241 4604 50  0000 R CNN
+F 1 "100R" H 4241 4695 50  0000 R CNN
+F 2 "" H 4300 4650 50  0001 C CNN
+F 3 "~" H 4300 4650 50  0001 C CNN
+	1    4300 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C644
+P 3300 6150
+AR Path="/646D7D07/6480C644" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C644" Ref="R36"  Part="1" 
+F 0 "R36" H 3241 6104 50  0000 R CNN
+F 1 "100R" H 3241 6195 50  0000 R CNN
+F 2 "" H 3300 6150 50  0001 C CNN
+F 3 "~" H 3300 6150 50  0001 C CNN
+	1    3300 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C64A
+P 4300 6150
+AR Path="/646D7D07/6480C64A" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C64A" Ref="R46"  Part="1" 
+F 0 "R46" H 4241 6104 50  0000 R CNN
+F 1 "100R" H 4241 6195 50  0000 R CNN
+F 2 "" H 4300 6150 50  0001 C CNN
+F 3 "~" H 4300 6150 50  0001 C CNN
+	1    4300 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C650
+P 3500 6550
+AR Path="/646D7D07/6480C650" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C650" Ref="R38"  Part="1" 
+F 0 "R38" V 3304 6550 50  0000 C CNN
+F 1 "5K6" V 3395 6550 50  0000 C CNN
+F 2 "" H 3500 6550 50  0001 C CNN
+F 3 "~" H 3500 6550 50  0001 C CNN
+	1    3500 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C656
+P 4000 7050
+AR Path="/646D7D07/6480C656" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C656" Ref="R42"  Part="1" 
+F 0 "R42" H 3941 7004 50  0000 R CNN
+F 1 "330R" H 3941 7095 50  0000 R CNN
+F 2 "" H 4000 7050 50  0001 C CNN
+F 3 "~" H 4000 7050 50  0001 C CNN
+	1    4000 7050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 5000 4000 5000
+Wire Wire Line
+	4000 5000 4000 5300
+Wire Wire Line
+	4000 5300 4300 5300
+Wire Wire Line
+	4300 5300 4300 5200
+Connection ~ 4000 5000
+Wire Wire Line
+	3950 5300 4000 5300
+Connection ~ 4000 5300
+Wire Wire Line
+	3300 5300 3300 5200
+Wire Wire Line
+	3300 4800 3300 4750
+Wire Wire Line
+	4300 4800 4300 4750
+Wire Wire Line
+	3300 4550 3300 4500
+Wire Wire Line
+	3300 4500 4300 4500
+Wire Wire Line
+	4300 4500 4300 4550
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 6480C669
+P 4950 5400
+AR Path="/646D7D07/6480C669" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C669" Ref="Q214"  Part="1" 
+F 0 "Q214" H 5141 5354 50  0000 L CNN
+F 1 "BC856" H 5141 5445 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 4950 5400 50  0001 L CNN
+	1    4950 5400
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC846 Q?
+U 1 1 6480C66F
+P 5300 6700
+AR Path="/646D7D07/6480C66F" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C66F" Ref="Q216"  Part="1" 
+F 0 "Q216" H 5491 6746 50  0000 L CNN
+F 1 "BC846" H 5491 6655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 6625 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 5300 6700 50  0001 L CNN
+	1    5300 6700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5300 3300 5300
+Wire Wire Line
+	3700 5300 3750 5300
+Text Label 2800 5750 0    50   ~ 0
+CH2IN-
+Wire Wire Line
+	3350 5950 3300 5950
+Wire Wire Line
+	3300 5950 3300 6050
+Wire Wire Line
+	4250 5750 4300 5750
+Wire Wire Line
+	4300 5750 4300 6050
+Wire Wire Line
+	3300 5300 3300 5400
+Wire Wire Line
+	3300 5850 3350 5850
+Connection ~ 3300 5300
+Wire Wire Line
+	4250 5850 4400 5850
+Wire Wire Line
+	4400 5850 4400 5650
+Wire Wire Line
+	4400 5650 4300 5650
+Wire Wire Line
+	4300 5650 4300 5300
+Connection ~ 4300 5300
+Wire Wire Line
+	4750 5400 4600 5400
+Connection ~ 3300 5400
+Wire Wire Line
+	3300 5400 3300 5850
+Wire Wire Line
+	3300 6250 3300 6300
+Wire Wire Line
+	3300 6300 4000 6300
+Wire Wire Line
+	4300 6300 4300 6250
+Wire Wire Line
+	4000 6350 4000 6300
+Connection ~ 4000 6300
+Wire Wire Line
+	4000 6300 4300 6300
+Wire Wire Line
+	3700 6550 3600 6550
+Wire Wire Line
+	3700 6650 3700 6550
+Connection ~ 3700 6550
+Wire Wire Line
+	4000 6750 4000 6850
+Connection ~ 4000 6850
+Wire Wire Line
+	4000 6850 4000 6950
+Wire Wire Line
+	4000 7150 4000 7200
+Wire Wire Line
+	4000 7200 3700 7200
+Wire Wire Line
+	3700 7200 3700 7050
+$Comp
+L power:GND #PWR?
+U 1 1 6480C696
+P 3300 6550
+AR Path="/646D7D07/6480C696" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C696" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 3300 6300 50  0001 C CNN
+F 1 "GND" H 3305 6377 50  0000 C CNN
+F 2 "" H 3300 6550 50  0001 C CNN
+F 3 "" H 3300 6550 50  0001 C CNN
+	1    3300 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6550 3400 6550
+$Comp
+L Transistor_BJT:BC846BDW1 Q?
+U 1 1 6480C69D
+P 3900 6550
+AR Path="/646D7D07/6480C69D" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C69D" Ref="Q213"  Part="1" 
+F 0 "Q213" H 4090 6596 50  0000 L CNN
+F 1 "BC846BDW1" H 4090 6505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4100 6650 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 3900 6550 50  0001 C CNN
+	1    3900 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC846BDW1 Q?
+U 2 1 6480C6A3
+P 3800 6850
+AR Path="/646D7D07/6480C6A3" Ref="Q?"  Part="2" 
+AR Path="/646D7D6E/6480C6A3" Ref="Q213"  Part="2" 
+F 0 "Q213" H 3991 6896 50  0000 L CNN
+F 1 "BC846BDW1" H 3991 6805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4000 6950 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 3800 6850 50  0001 C CNN
+	2    3800 6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856BDW1 Q?
+U 2 1 6480C6A9
+P 4200 5000
+AR Path="/646D7D07/6480C6A9" Ref="Q?"  Part="2" 
+AR Path="/646D7D6E/6480C6A9" Ref="Q211"  Part="2" 
+F 0 "Q211" H 4390 5046 50  0000 L CNN
+F 1 "BC856BDW1" H 4390 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4400 5100 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 4200 5000 50  0001 C CNN
+	2    4200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856BDW1 Q?
+U 1 1 6480C6AF
+P 3400 5000
+AR Path="/646D7D07/6480C6AF" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C6AF" Ref="Q211"  Part="1" 
+F 0 "Q211" H 3591 5046 50  0000 L CNN
+F 1 "BC856BDW1" H 3591 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3600 5100 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 3400 5000 50  0001 C CNN
+	1    3400 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6480C6B5
+P 5050 5600
+AR Path="/646D7D07/6480C6B5" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C6B5" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 5050 5350 50  0001 C CNN
+F 1 "GND" H 5055 5427 50  0000 C CNN
+F 2 "" H 5050 5600 50  0001 C CNN
+F 3 "" H 5050 5600 50  0001 C CNN
+	1    5050 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4500 5050 4500
+Wire Wire Line
+	5050 4500 5050 4650
+Connection ~ 4300 4500
+$Comp
+L Device:R_Small R?
+U 1 1 6480C6BE
+P 5050 4750
+AR Path="/646D7D07/6480C6BE" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C6BE" Ref="R50"  Part="1" 
+F 0 "R50" H 4991 4704 50  0000 R CNN
+F 1 "470R" H 4991 4795 50  0000 R CNN
+F 2 "" H 5050 4750 50  0001 C CNN
+F 3 "~" H 5050 4750 50  0001 C CNN
+	1    5050 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 4850 5050 5050
+$Comp
+L Transistor_BJT:BCP53 Q?
+U 1 1 6480C6C5
+P 5400 5050
+AR Path="/646D7D07/6480C6C5" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C6C5" Ref="Q215"  Part="1" 
+F 0 "Q215" H 5591 5004 50  0000 L CNN
+F 1 "BCP53" H 5591 5095 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5600 4975 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF" H 5400 5050 50  0001 L CNN
+	1    5400 5050
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BCP56 Q?
+U 1 1 6480C6CB
+P 5400 6400
+AR Path="/646D7D07/6480C6CB" Ref="Q?"  Part="1" 
+AR Path="/646D7D6E/6480C6CB" Ref="Q217"  Part="1" 
+F 0 "Q217" H 5591 6446 50  0000 L CNN
+F 1 "BCP56" H 5591 6355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5600 6325 50  0001 L CIN
+F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H 5400 6400 50  0001 L CNN
+	1    5400 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 4850
+Connection ~ 5050 4500
+Wire Wire Line
+	5200 5050 5050 5050
+Connection ~ 5050 5050
+Wire Wire Line
+	5050 5050 5050 5200
+Wire Wire Line
+	4250 5950 4600 5950
+Wire Wire Line
+	5500 5950 5500 5250
+$Comp
+L Device:C_Small C?
+U 1 1 6480C6D9
+P 4600 5700
+AR Path="/646D7D07/6480C6D9" Ref="C?"  Part="1" 
+AR Path="/646D7D6E/6480C6D9" Ref="C12"  Part="1" 
+F 0 "C12" H 4508 5654 50  0000 R CNN
+F 1 "47p" H 4508 5745 50  0000 R CNN
+F 2 "" H 4600 5700 50  0001 C CNN
+F 3 "~" H 4600 5700 50  0001 C CNN
+	1    4600 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 5600 4600 5400
+Connection ~ 4600 5400
+Wire Wire Line
+	4600 5400 3300 5400
+Wire Wire Line
+	4600 5800 4600 5950
+Connection ~ 4600 5950
+Wire Wire Line
+	4600 5950 5500 5950
+$Comp
+L Device:R_Small R?
+U 1 1 6480C6E5
+P 5000 6400
+AR Path="/646D7D07/6480C6E5" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C6E5" Ref="R48"  Part="1" 
+F 0 "R48" V 4804 6400 50  0000 C CNN
+F 1 "5K6" V 4895 6400 50  0000 C CNN
+F 2 "" H 5000 6400 50  0001 C CNN
+F 3 "~" H 5000 6400 50  0001 C CNN
+	1    5000 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6480C6EB
+P 4800 6400
+AR Path="/646D7D07/6480C6EB" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C6EB" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 4800 6150 50  0001 C CNN
+F 1 "GND" H 4805 6227 50  0000 C CNN
+F 2 "" H 4800 6400 50  0001 C CNN
+F 3 "" H 4800 6400 50  0001 C CNN
+	1    4800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6480C6F1
+P 5500 6950
+AR Path="/646D7D07/6480C6F1" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C6F1" Ref="R52"  Part="1" 
+F 0 "R52" H 5441 6904 50  0000 R CNN
+F 1 "22R" H 5441 6995 50  0000 R CNN
+F 2 "" H 5500 6950 50  0001 C CNN
+F 3 "~" H 5500 6950 50  0001 C CNN
+	1    5500 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 6400 4900 6400
+Wire Wire Line
+	5100 6400 5200 6400
+Wire Wire Line
+	5200 6400 5200 6500
+Connection ~ 5200 6400
+Wire Wire Line
+	5500 6600 5500 6700
+Connection ~ 5500 6700
+Wire Wire Line
+	5500 6700 5500 6850
+Wire Wire Line
+	5200 6900 5200 7200
+Wire Wire Line
+	5200 7200 4000 7200
+Connection ~ 4000 7200
+Wire Wire Line
+	5500 7050 5500 7200
+Wire Wire Line
+	5500 7200 5200 7200
+Connection ~ 5200 7200
+Wire Wire Line
+	5500 6200 5500 5950
+Connection ~ 5500 5950
+$Comp
+L power:+15V #PWR?
+U 1 1 6480C706
+P 5650 4500
+AR Path="/646D7D07/6480C706" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C706" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 5650 4350 50  0001 C CNN
+F 1 "+15V" V 5650 4600 50  0000 L CNN
+F 2 "" H 5650 4500 50  0001 C CNN
+F 3 "" H 5650 4500 50  0001 C CNN
+	1    5650 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 4500 5500 4500
+Connection ~ 5500 4500
+$Comp
+L power:-15V #PWR?
+U 1 1 6480C70E
+P 5600 7200
+AR Path="/646D7D07/6480C70E" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C70E" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 5600 7300 50  0001 C CNN
+F 1 "-15V" V 5615 7328 50  0000 L CNN
+F 2 "" H 5600 7200 50  0001 C CNN
+F 3 "" H 5600 7200 50  0001 C CNN
+	1    5600 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 7200 5500 7200
+Connection ~ 5500 7200
+Text GLabel 5950 5950 2    50   Input ~ 0
+CH2OUT-
+$Comp
+L Device:R_Small R?
+U 1 1 6480C717
+P 5750 5950
+AR Path="/646D7D07/6480C717" Ref="R?"  Part="1" 
+AR Path="/646D7D6E/6480C717" Ref="R54"  Part="1" 
+F 0 "R54" V 5554 5950 50  0000 C CNN
+F 1 "100R" V 5645 5950 50  0000 C CNN
+F 2 "" H 5750 5950 50  0001 C CNN
+F 3 "~" H 5750 5950 50  0001 C CNN
+	1    5750 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 4200 1000 3500
+Wire Wire Line
+	1000 3500 1400 3500
+Wire Wire Line
+	1600 3500 1700 3500
+Wire Wire Line
+	2350 3500 2350 3650
+Wire Wire Line
+	2350 3500 2700 3500
+Connection ~ 2350 3500
+Wire Wire Line
+	1700 3650 1700 3500
+Connection ~ 1700 3500
+Wire Wire Line
+	1700 3500 2350 3500
+Wire Wire Line
+	1300 4500 1400 4500
+Wire Wire Line
+	1600 4500 1700 4500
+Wire Wire Line
+	2350 4500 2350 4350
+Wire Wire Line
+	2350 4500 2700 4500
+Wire Wire Line
+	2700 4500 2700 5750
+Wire Wire Line
+	2700 5750 3350 5750
+Connection ~ 2350 4500
+Wire Wire Line
+	2700 3500 2700 2250
+Wire Wire Line
+	2700 2250 3350 2250
+Wire Wire Line
+	2350 4150 2350 4000
+Wire Wire Line
+	2250 4000 2350 4000
+Connection ~ 2350 4000
+Wire Wire Line
+	2350 4000 2350 3850
+Wire Wire Line
+	1700 3850 1700 4000
+Wire Wire Line
+	1700 4350 1700 4500
+Connection ~ 1700 4500
+Wire Wire Line
+	1700 4500 2350 4500
+Connection ~ 1700 4000
+Wire Wire Line
+	1700 4000 1700 4150
+Wire Wire Line
+	1300 4600 1300 4800
+Wire Wire Line
+	1300 4800 1000 4800
+$Comp
+L power:GND #PWR?
+U 1 1 6480C73B
+P 1000 4900
+AR Path="/646D7D07/6480C73B" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C73B" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 1000 4650 50  0001 C CNN
+F 1 "GND" H 1005 4727 50  0000 C CNN
+F 2 "" H 1000 4900 50  0001 C CNN
+F 3 "" H 1000 4900 50  0001 C CNN
+	1    1000 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1000 4800
+Wire Wire Line
+	1000 4900 1000 4800
+Wire Wire Line
+	1700 4000 2050 4000
+$Comp
+L power:GND #PWR?
+U 1 1 6480C744
+P 1300 4000
+AR Path="/646D7D07/6480C744" Ref="#PWR?"  Part="1" 
+AR Path="/646D7D6E/6480C744" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 1300 3750 50  0001 C CNN
+F 1 "GND" H 1305 3827 50  0000 C CNN
+F 2 "" H 1300 4000 50  0001 C CNN
+F 3 "" H 1300 4000 50  0001 C CNN
+	1    1300 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4000 1700 4000
+Wire Wire Line
+	5650 2450 5500 2450
+Wire Wire Line
+	5850 2450 5950 2450
+Wire Wire Line
+	5500 5950 5650 5950
+Wire Wire Line
+	5850 5950 5950 5950
+Text Notes 1000 2950 0    50   ~ 0
+pg2xx
 $EndSCHEMATC
