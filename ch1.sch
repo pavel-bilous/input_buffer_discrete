@@ -1,0 +1,550 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title "CH1"
+Date "2023-05-23"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:XLR3_Ground J?
+U 1 1 646D7EFC
+P 1000 4000
+F 0 "J?" V 1046 4228 50  0000 L CNN
+F 1 "CH1" V 955 4228 50  0000 L CNN
+F 2 "" H 1000 4000 50  0001 C CNN
+F 3 " ~" H 1000 4000 50  0001 C CNN
+	1    1000 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646D9A10
+P 1500 3000
+F 0 "R?" V 1304 3000 50  0000 C CNN
+F 1 "100R" V 1395 3000 50  0000 C CNN
+F 2 "" H 1500 3000 50  0001 C CNN
+F 3 "~" H 1500 3000 50  0001 C CNN
+	1    1500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646DA8CE
+P 1500 4000
+F 0 "R?" V 1304 4000 50  0000 C CNN
+F 1 "100R" V 1395 4000 50  0000 C CNN
+F 2 "" H 1500 4000 50  0001 C CNN
+F 3 "~" H 1500 4000 50  0001 C CNN
+	1    1500 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646DAE92
+P 2100 3500
+F 0 "R?" V 1904 3500 50  0000 C CNN
+F 1 "2M2" V 1995 3500 50  0000 C CNN
+F 2 "" H 2100 3500 50  0001 C CNN
+F 3 "~" H 2100 3500 50  0001 C CNN
+	1    2100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646DC0CE
+P 2250 3100
+F 0 "R?" H 2191 3054 50  0000 R CNN
+F 1 "47K" H 2191 3145 50  0000 R CNN
+F 2 "" H 2250 3100 50  0001 C CNN
+F 3 "~" H 2250 3100 50  0001 C CNN
+	1    2250 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646DC749
+P 2250 3900
+F 0 "R?" H 2191 3854 50  0000 R CNN
+F 1 "47K" H 2191 3945 50  0000 R CNN
+F 2 "" H 2250 3900 50  0001 C CNN
+F 3 "~" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 646DCBFB
+P 1700 3100
+F 0 "C?" H 1792 3146 50  0000 L CNN
+F 1 "100p" H 1792 3055 50  0000 L CNN
+F 2 "" H 1700 3100 50  0001 C CNN
+F 3 "~" H 1700 3100 50  0001 C CNN
+	1    1700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 646DDEBD
+P 1700 3900
+F 0 "C?" H 1792 3946 50  0000 L CNN
+F 1 "100p" H 1792 3855 50  0000 L CNN
+F 2 "" H 1700 3900 50  0001 C CNN
+F 3 "~" H 1700 3900 50  0001 C CNN
+	1    1700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LS844-SOT-23-6L-CT:LS844-SOT-23-6L-CT Q?
+U 1 1 646E234A
+P 3050 1850
+F 0 "Q?" H 3500 2115 50  0000 C CNN
+F 1 "LS844" H 3500 2024 50  0000 C CNN
+F 2 "SOT95P280X145-6N" H 3800 1950 50  0001 L CNN
+F 3 "https://www.linearsystems.com/lsdata/datasheets/LS844SeriesDSRevA14" H 3800 1850 50  0001 L CNN
+F 4 "JFET Low Noise, Low Drift, Low Capacitance, Monolithic Dual, N-Channel JFET" H 3800 1750 50  0001 L CNN "Description"
+F 5 "1.45" H 3800 1650 50  0001 L CNN "Height"
+F 6 "722-LS844SOT236LCT" H 3800 1550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Linear-Integrated-Systems/LS844-SOT-23-6L-CT?qs=T%252BzbugeAwjiyHRIf%2Fcfibw%3D%3D" H 3800 1450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Linear Integrated Systems" H 3800 1350 50  0001 L CNN "Manufacturer_Name"
+F 9 "LS844-SOT-23-6L-CT" H 3800 1250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646E700F
+P 3300 1400
+F 0 "R?" V 3104 1400 50  0000 C CNN
+F 1 "470R" V 3195 1400 50  0000 C CNN
+F 2 "" H 3300 1400 50  0001 C CNN
+F 3 "~" H 3300 1400 50  0001 C CNN
+	1    3300 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 646E752B
+P 3550 1400
+F 0 "C?" V 3321 1400 50  0000 C CNN
+F 1 "680p" V 3412 1400 50  0000 C CNN
+F 2 "" H 3550 1400 50  0001 C CNN
+F 3 "~" H 3550 1400 50  0001 C CNN
+	1    3550 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646E7DC9
+P 3000 750
+F 0 "R?" H 2941 704 50  0000 R CNN
+F 1 "100R" H 2941 795 50  0000 R CNN
+F 2 "" H 3000 750 50  0001 C CNN
+F 3 "~" H 3000 750 50  0001 C CNN
+	1    3000 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646E81AA
+P 4000 750
+F 0 "R?" H 3941 704 50  0000 R CNN
+F 1 "100R" H 3941 795 50  0000 R CNN
+F 2 "" H 4000 750 50  0001 C CNN
+F 3 "~" H 4000 750 50  0001 C CNN
+	1    4000 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646E85CA
+P 3000 2250
+F 0 "R?" H 2941 2204 50  0000 R CNN
+F 1 "100R" H 2941 2295 50  0000 R CNN
+F 2 "" H 3000 2250 50  0001 C CNN
+F 3 "~" H 3000 2250 50  0001 C CNN
+	1    3000 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646E8A7D
+P 4000 2250
+F 0 "R?" H 3941 2204 50  0000 R CNN
+F 1 "100R" H 3941 2295 50  0000 R CNN
+F 2 "" H 4000 2250 50  0001 C CNN
+F 3 "~" H 4000 2250 50  0001 C CNN
+	1    4000 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646EE3B7
+P 3200 2650
+F 0 "R?" V 3004 2650 50  0000 C CNN
+F 1 "5K6" V 3095 2650 50  0000 C CNN
+F 2 "" H 3200 2650 50  0001 C CNN
+F 3 "~" H 3200 2650 50  0001 C CNN
+	1    3200 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 646EE759
+P 3700 3150
+F 0 "R?" H 3641 3104 50  0000 R CNN
+F 1 "330R" H 3641 3195 50  0000 R CNN
+F 2 "" H 3700 3150 50  0001 C CNN
+F 3 "~" H 3700 3150 50  0001 C CNN
+	1    3700 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 1100 3700 1100
+Wire Wire Line
+	3700 1100 3700 1400
+Wire Wire Line
+	3700 1400 4000 1400
+Wire Wire Line
+	4000 1400 4000 1300
+Connection ~ 3700 1100
+Wire Wire Line
+	3650 1400 3700 1400
+Connection ~ 3700 1400
+Wire Wire Line
+	3000 1400 3000 1300
+Wire Wire Line
+	3000 900  3000 850 
+Wire Wire Line
+	4000 900  4000 850 
+Wire Wire Line
+	3000 650  3000 600 
+Wire Wire Line
+	3000 600  4000 600 
+Wire Wire Line
+	4000 600  4000 650 
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 6470BB87
+P 4650 1500
+F 0 "Q?" H 4841 1454 50  0000 L CNN
+F 1 "BC856" H 4841 1545 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4850 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 4650 1500 50  0001 L CNN
+	1    4650 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC846 Q?
+U 1 1 6470E7EF
+P 5000 2800
+F 0 "Q?" H 5191 2846 50  0000 L CNN
+F 1 "BC846" H 5191 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 2725 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 5000 2800 50  0001 L CNN
+	1    5000 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1400 3000 1400
+Wire Wire Line
+	3400 1400 3450 1400
+Wire Wire Line
+	3050 1850 2500 1850
+Text Label 2750 1850 0    50   ~ 0
+IN+
+Wire Wire Line
+	3050 2050 3000 2050
+Wire Wire Line
+	3000 2050 3000 2150
+Wire Wire Line
+	3950 1850 4000 1850
+Wire Wire Line
+	4000 1850 4000 2150
+Wire Wire Line
+	3000 1400 3000 1500
+Wire Wire Line
+	3000 1950 3050 1950
+Connection ~ 3000 1400
+Wire Wire Line
+	3950 1950 4100 1950
+Wire Wire Line
+	4100 1950 4100 1750
+Wire Wire Line
+	4100 1750 4000 1750
+Wire Wire Line
+	4000 1750 4000 1400
+Connection ~ 4000 1400
+Wire Wire Line
+	4450 1500 4300 1500
+Connection ~ 3000 1500
+Wire Wire Line
+	3000 1500 3000 1950
+Wire Wire Line
+	3000 2350 3000 2400
+Wire Wire Line
+	3000 2400 3700 2400
+Wire Wire Line
+	4000 2400 4000 2350
+Wire Wire Line
+	3700 2450 3700 2400
+Connection ~ 3700 2400
+Wire Wire Line
+	3700 2400 4000 2400
+Wire Wire Line
+	3400 2650 3300 2650
+Wire Wire Line
+	3400 2750 3400 2650
+Connection ~ 3400 2650
+Wire Wire Line
+	3700 2850 3700 2950
+Connection ~ 3700 2950
+Wire Wire Line
+	3700 2950 3700 3050
+Wire Wire Line
+	3700 3250 3700 3300
+Wire Wire Line
+	3700 3300 3400 3300
+Wire Wire Line
+	3400 3300 3400 3150
+$Comp
+L power:GND #PWR?
+U 1 1 64718848
+P 3000 2650
+F 0 "#PWR?" H 3000 2400 50  0001 C CNN
+F 1 "GND" H 3005 2477 50  0000 C CNN
+F 2 "" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2650 3100 2650
+$Comp
+L Transistor_BJT:BC846BDW1 Q?
+U 1 1 646E8E9D
+P 3600 2650
+F 0 "Q?" H 3790 2696 50  0000 L CNN
+F 1 "BC846BDW1" H 3790 2605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3800 2750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 3600 2650 50  0001 C CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC846BDW1 Q?
+U 2 1 646EA5C1
+P 3500 2950
+F 0 "Q?" H 3691 2996 50  0000 L CNN
+F 1 "BC846BDW1" H 3691 2905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3700 3050 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 3500 2950 50  0001 C CNN
+	2    3500 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856BDW1 Q?
+U 2 1 646E5046
+P 3900 1100
+F 0 "Q?" H 4090 1146 50  0000 L CNN
+F 1 "BC856BDW1" H 4090 1055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4100 1200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 3900 1100 50  0001 C CNN
+	2    3900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856BDW1 Q?
+U 1 1 646E36BC
+P 3100 1100
+F 0 "Q?" H 3291 1146 50  0000 L CNN
+F 1 "BC856BDW1" H 3291 1055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3300 1200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF" H 3100 1100 50  0001 C CNN
+	1    3100 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6471A15C
+P 4750 1700
+F 0 "#PWR?" H 4750 1450 50  0001 C CNN
+F 1 "GND" H 4755 1527 50  0000 C CNN
+F 2 "" H 4750 1700 50  0001 C CNN
+F 3 "" H 4750 1700 50  0001 C CNN
+	1    4750 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 600  4750 600 
+Wire Wire Line
+	4750 600  4750 750 
+Connection ~ 4000 600 
+$Comp
+L Device:R_Small R?
+U 1 1 6471AF43
+P 4750 850
+F 0 "R?" H 4691 804 50  0000 R CNN
+F 1 "470R" H 4691 895 50  0000 R CNN
+F 2 "" H 4750 850 50  0001 C CNN
+F 3 "~" H 4750 850 50  0001 C CNN
+	1    4750 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 950  4750 1150
+$Comp
+L Transistor_BJT:BCP53 Q?
+U 1 1 6471BB57
+P 5100 1150
+F 0 "Q?" H 5291 1104 50  0000 L CNN
+F 1 "BCP53" H 5291 1195 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5300 1075 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF" H 5100 1150 50  0001 L CNN
+	1    5100 1150
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BCP56 Q?
+U 1 1 6471C766
+P 5100 2500
+F 0 "Q?" H 5291 2546 50  0000 L CNN
+F 1 "BCP56" H 5291 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5300 2425 50  0001 L CIN
+F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H 5100 2500 50  0001 L CNN
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 600  5200 600 
+Wire Wire Line
+	5200 600  5200 950 
+Connection ~ 4750 600 
+Wire Wire Line
+	4900 1150 4750 1150
+Connection ~ 4750 1150
+Wire Wire Line
+	4750 1150 4750 1300
+Wire Wire Line
+	3950 2050 4300 2050
+Wire Wire Line
+	5200 2050 5200 1350
+$Comp
+L Device:C_Small C?
+U 1 1 647204FC
+P 4300 1800
+F 0 "C?" H 4208 1754 50  0000 R CNN
+F 1 "47p" H 4208 1845 50  0000 R CNN
+F 2 "" H 4300 1800 50  0001 C CNN
+F 3 "~" H 4300 1800 50  0001 C CNN
+	1    4300 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 1700 4300 1500
+Connection ~ 4300 1500
+Wire Wire Line
+	4300 1500 3000 1500
+Wire Wire Line
+	4300 1900 4300 2050
+Connection ~ 4300 2050
+Wire Wire Line
+	4300 2050 5200 2050
+$Comp
+L Device:R_Small R?
+U 1 1 647247D3
+P 4700 2500
+F 0 "R?" V 4504 2500 50  0000 C CNN
+F 1 "5K6" V 4595 2500 50  0000 C CNN
+F 2 "" H 4700 2500 50  0001 C CNN
+F 3 "~" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 647251C6
+P 4500 2500
+F 0 "#PWR?" H 4500 2250 50  0001 C CNN
+F 1 "GND" H 4505 2327 50  0000 C CNN
+F 2 "" H 4500 2500 50  0001 C CNN
+F 3 "" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 647256D1
+P 5200 3050
+F 0 "R?" H 5141 3004 50  0000 R CNN
+F 1 "22R" H 5141 3095 50  0000 R CNN
+F 2 "" H 5200 3050 50  0001 C CNN
+F 3 "~" H 5200 3050 50  0001 C CNN
+	1    5200 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 2500 4600 2500
+Wire Wire Line
+	4800 2500 4900 2500
+Wire Wire Line
+	4900 2500 4900 2600
+Connection ~ 4900 2500
+Wire Wire Line
+	5200 2700 5200 2800
+Connection ~ 5200 2800
+Wire Wire Line
+	5200 2800 5200 2950
+Wire Wire Line
+	4900 3000 4900 3300
+Wire Wire Line
+	4900 3300 3700 3300
+Connection ~ 3700 3300
+Wire Wire Line
+	5200 3150 5200 3300
+Wire Wire Line
+	5200 3300 4900 3300
+Connection ~ 4900 3300
+Wire Wire Line
+	5200 2300 5200 2050
+Connection ~ 5200 2050
+$Comp
+L power:+15V #PWR?
+U 1 1 6472CD82
+P 5350 600
+F 0 "#PWR?" H 5350 450 50  0001 C CNN
+F 1 "+15V" V 5350 700 50  0000 L CNN
+F 2 "" H 5350 600 50  0001 C CNN
+F 3 "" H 5350 600 50  0001 C CNN
+	1    5350 600 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 600  5200 600 
+Connection ~ 5200 600 
+$Comp
+L power:-15V #PWR?
+U 1 1 6472ED09
+P 5300 3300
+F 0 "#PWR?" H 5300 3400 50  0001 C CNN
+F 1 "-15V" V 5315 3428 50  0000 L CNN
+F 2 "" H 5300 3300 50  0001 C CNN
+F 3 "" H 5300 3300 50  0001 C CNN
+	1    5300 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 3300 5200 3300
+Connection ~ 5200 3300
+Text GLabel 5350 2050 2    50   Input ~ 0
+CH1+
+Wire Wire Line
+	5350 2050 5200 2050
+$EndSCHEMATC
